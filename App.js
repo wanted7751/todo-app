@@ -27,7 +27,7 @@ export default class App extends React.Component {
           autoCapitalize={"none"}
           />
           <ScrollView contentContainerStyle={styles.toDos}>
-            <ToDo/>
+            <ToDo text={"Hello I'm a To Do"}/>
           </ScrollView>
 
         </View>
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     padding:20,
     borderBottomColor:"#bbb",
     borderBottomWidth: 1,
-    fontSize: 20,
+    fontSize: 20,  
     
   },
   
