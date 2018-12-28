@@ -27,7 +27,7 @@ export default class App extends React.Component {
           autoCapitalize={"none"}
           />
           <ScrollView contentContainerStyle={styles.toDos}>
-            <ToDo text={"Hello I'm a To Do"}/>
+            
           </ScrollView>
 
         </View>
